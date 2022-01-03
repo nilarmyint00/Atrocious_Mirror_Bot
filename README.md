@@ -45,7 +45,7 @@ MEGA_PASSWORD = Your mega account password.
 
 BLOCK_MEGA_FOLDER = If you want to disable mega folder uploading then set it True or leave it empty .
 
-BLOCK_MEGA_LINKS = If you don't want to mega upload then set it True or leave it empty . If you dont have mega account and password then Set it also True .
+BLOCK_MEGA_LINKS = If you don't want to mega to drive or telgram upload then set it True or leave it empty . If you dont have mega account and password then Set it also True .
 
 ✳ Team drive config. 
 
