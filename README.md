@@ -59,3 +59,5 @@ IS_TEAM_DRIVE = Set to False or leave it empty to get public google drive links 
 
 For queries or any issues regarding the bot please open an issue ticket or visit us at [AtrociousBotSupport](https://t.me/AtrociousBotSupport)
 
+
+Credits : This is a Telegram Bot written in Python for mirroring files on the Internet to your Google Drive or Telegram. Based on python-aria-mirror-bot.
