@@ -53,5 +53,5 @@ BLOCK_MEGA_LINKS = If you want to remove mega.nz mirror support, set it to True.
 
 IS_TEAM_DRIVE = Set to False or leave it empty to get public google drive links else True so only who have access to your Folder/TeamDrive can open the links. 
 
-Deploy to Herkou now . 
-<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+
+[[Deploy To Heroku Now](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AL-Noman21/Atrocious_Mirror_Bot)
