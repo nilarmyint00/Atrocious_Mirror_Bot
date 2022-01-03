@@ -2,6 +2,8 @@
 
 ✳ Deploy to Heroku directly.
 
+✳ First of all upload token.pickle and credentials.json in bots root folder otherwise google drives uploading and cloning  will not work.
+
 Before deploying you must need to collect all config.
 
 ✳ Required Config :
