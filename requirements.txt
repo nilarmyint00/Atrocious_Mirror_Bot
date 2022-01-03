@@ -28,3 +28,4 @@ tenacity
 TgCrypto
 youtube_dl
 qbittorrent-api
+speedtest-cli
