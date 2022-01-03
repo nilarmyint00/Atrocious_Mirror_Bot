@@ -25,7 +25,7 @@ HEROKU_API_KEY = Your Heroku accounts api key.
 
 HEROKU_APP_NAME = Your Heroku app name . Write yur app name that you already wrote in appname .
 
-BASE_URL_OF_BOT = Your herkou app url . Like [  https://1234.herokuapp.com  ] Here 1234 is heroku app name . On 1234 write heroku app name that you write [ HEROKU_APP_NAME ] config.
+BASE_URL_OF_BOT = Your herkou app url . Like [  https://1234.herokuapp.com  ] Here 1234 is heroku app name . On 1234 write your  heroku app name [ HEROKU_APP_NAME ] config.
 
 
 ✳ Index config. 
