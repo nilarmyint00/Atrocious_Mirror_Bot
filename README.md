@@ -8,13 +8,15 @@ Before deploying you must need to collect all config.
 
 ✳ Required Config :
 
-AUTHORIZED_CHATS = Your group id where bot added as admin. You can add many groups id with a space. 
+AUTHORIZED_CHATS = Fill user_id and chat_id (not username) of groups/users you want to authorize. Separate them by space, Examples: -0123456789 -1122334455 6915401739.
 
 BOT_TOKEN = Your telegram bot api.
 
 GDRIVE_FOLDER_ID = A google drive folder id for uploading file.
 
 OWNER_ID = Your telegram id number .
+
+SUDO_USERS = Fill user_id (not username) of users whom you want to give sudo permission. Separate them by space, Examples: 0123456789 1122334455 6915401739.
 
 TELEGRAM_API = Your telegram api .
 
