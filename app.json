@@ -12,6 +12,10 @@
     "success_url": "https://t.me/AtrociousBotSupport",
     "stack": "container",
     "env": {
+      "ACCOUNTS_ZIP_URL": {
+        "description": "(Optional) Only if you want to load your service accs externally from an index link. Archive your service accs json files to a zip file directly (don't archive the accounts folder. Select all the jsons inside and zip them only instead. Name the zip file with whatever you want, it doesn't matter). Fill this with the direct link of that file.",
+        "required": false
+      },
       "AUTHORIZED_CHATS": {
         "description": "Fill User ID and Chat ID of you want to authorize, Seprate them with space.",
         "value": "",
@@ -30,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
-        "value": "1063430421",
+        "value": "",
         "required": true
       },
       "IS_TEAM_DRIVE": {
@@ -43,7 +47,7 @@
       },
       "SUDO_USERS": {
         "description": "Fill user_id (not username) of you want to sudoers, Seprate them with space.",
-        "value": "1063430421",
+        "value": "",
         "required": false
       },
       "INDEX_URL": {
@@ -112,8 +116,8 @@
         "value": "5",
         "required": false
       },
-      "ACCOUNTS_ZIP_URL": {
-        "description": "(Optional) Only if you want to load your service accs externally from an index link. Archive your service accs json files to a zip file directly (don't archive the accounts folder. Select all the jsons inside and zip them only instead. Name the zip file with whatever you want, it doesn't matter). Fill this with the direct link of that file.",
+      "BUTTON_FOUR_NAME": {
+        "description": "Extra buttons (optional).",
         "required": false
       },
       "BUTTON_FOUR_URL": {
