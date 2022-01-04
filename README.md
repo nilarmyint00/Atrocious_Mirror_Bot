@@ -51,7 +51,7 @@ BLOCK_MEGA_LINKS = If you want to remove mega.nz mirror support, set it to True.
 IS_TEAM_DRIVE = Set to False or leave it empty to get public google drive links else True so only who have access to your Folder/TeamDrive can open the links. 
 
 
-✳  After deploy upload token.pickle and credentials.json in bots root folder . Then go tob your herkou apps deploy option and select your forked repo and enable automatic deploys then click deploy branch and wait for deploying . Otherwise google drive link clone and upload in Google drive will not work.
+✳  After deploy upload token.pickle and credentials.json in bots root folder . Then go to your herkou app deploy option and select your forked repo and connect then enable automatic deploys then click deploy branch and wait for deploying . Otherwise google drive link clone and upload in Google drive will not work.
 ✳  Deploy to heroku now .
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AL-Noman21/Atrocious_Mirror_Bot)
 
