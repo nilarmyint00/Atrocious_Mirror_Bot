@@ -141,9 +141,8 @@ def stats(update, context):
     mem_p = memory.percent
     mem_t = get_readable_file_size(memory.total)
     mem_a = get_readable_file_size(memory.available)
-    mem_u = get_readable_file_size(memory.used)
-    stats = f'<b> 「⭕️ BOT STATISTICS ⭕️」</b>\n' \
-            f'<b>Bot Uptime:</b> {currentTime}\n\n'\
+    mem_u = get_readable_file_size(memory.used)  
+    stats = f'<b>Bot Uptime:</b> {currentTime}\n\n'\
             f'<b>Total Disk Space:</b> {total}\n'\
             f'<b>Used:</b> {used} | <b>Free:</b> {free}\n\n'\
             f'<b>Upload:</b> {sent}\n'\
