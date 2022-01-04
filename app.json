@@ -12,7 +12,15 @@
     "success_url": "https://t.me/AtrociousBotSupport",
     "stack": "container",
     "env": {
-      "BOT_TOKEN": {
+      "AUTHORIZED_CHATS": {
+        "description": "Fill User ID and Chat ID of you want to authorize, Seprate them with space.",
+        "value": "",
+        "required": true
+      },
+      "BASE_URL_OF_BOT": {
+        "description": "This Var is optional on VPS and required for Heroku specially to avoid app sleeping/idling. For Heroku fill `https://yourappname.herokuapp.com`. Still got idling? You can use http://cron-job.org to ping your Heroku app. (**NOTE**: Don't add slash at the end).",
+        "required": true
+      },"BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
         "required": true
       },
@@ -32,11 +40,6 @@
       "USE_SERVICE_ACCOUNTS": {
         "description": "Whether to use Service Accounts or not. For this to work see 'Using Service Accounts' in repo.",
         "required": false
-      },
-      "AUTHORIZED_CHATS": {
-        "description": "Fill User ID and Chat ID of you want to authorize, Seprate them with space.",
-        "value": "-1001157029074",
-        "required": true
       },
       "SUDO_USERS": {
         "description": "Fill user_id (not username) of you want to sudoers, Seprate them with space.",
@@ -61,10 +64,6 @@
       },
       "HEROKU_APP_NAME": {
         "description": "Add the Heroku app name here.",
-        "required": true
-       },
-      "BASE_URL_OF_BOT": {
-        "description": "This Var is optional on VPS and required for Heroku specially to avoid app sleeping/idling. For Heroku fill `https://yourappname.herokuapp.com`. Still got idling? You can use http://cron-job.org to ping your Heroku app. (**NOTE**: Don't add slash at the end).",
         "required": true
       },
       "MEGA_API_KEY": {
