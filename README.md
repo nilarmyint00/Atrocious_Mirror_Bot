@@ -1,9 +1,6 @@
 ✳ Atrocious_Mirror_Bot.
 
-✳ Deploy to Heroku directly.
-
-✳ First of all upload token.pickle and credentials.json in bots root folder otherwise google drive link clone and upload in Google drive will not work.
-
+✳ First for this repo .
 Before deploying you must need to collect all config.
 
 ✳ Required Config :
@@ -53,8 +50,10 @@ BLOCK_MEGA_LINKS = If you want to remove mega.nz mirror support, set it to True.
 
 IS_TEAM_DRIVE = Set to False or leave it empty to get public google drive links else True so only who have access to your Folder/TeamDrive can open the links. 
 
+
+✳  After deploy upload token.pickle and credentials.json in bots root folder . Then go tob your herkou apps deploy option and select your forked repo and enable automatic deploys then click deploy branch and wait for deploying . Otherwise google drive link clone and upload in Google drive will not work.
 ✳  Deploy to heroku now .
-<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AL-Noman21/Atrocious_Mirror_Bot)
 
 For queries or any issues regarding the bot please open an issue ticket or visit us at [AtrociousBotSupport](https://t.me/AtrociousBotSupport)
 
