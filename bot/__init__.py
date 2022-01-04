@@ -145,14 +145,13 @@ except:
 try:
     BOT_TOKEN = getConfig('BOT_TOKEN')
     parent_id = getConfig('GDRIVE_FOLDER_ID')
-    DOWNLOAD_STATUS_UPDATE_INTERVAL = 5
+    AUTO_DELETE_MESSAGE_DURATION = int(getConfig('AUTO_DELETE_MESSAGE_DURATION'))
     OWNER_ID = int(getConfig('OWNER_ID'))
-    AUTO_DELETE_MESSAGE_DURATION = -1
+    AUTO_DELETE_MESSAGE_DURATION = int(getConfig('AUTO_DELETE_MESSAGE_DURATION'))
     TELEGRAM_API = getConfig('TELEGRAM_API')
     TELEGRAM_HASH = getConfig('TELEGRAM_HASH')
     ENV = "ANYTHING"
     IS_VPS = False
-    IGNORE_PENDING_REQUESTS = False
     DOWNLOAD_DIR = "/usr/src/app/downloads/"
 except KeyError as e:
     LOGGER.error("One or more env variables missing! Exiting now")
@@ -210,9 +209,9 @@ try:
     if len(STATUS_LIMIT) == 0:
         raise KeyError
     else:
-        STATUS_LIMIT = int(STATUS_LIMIT)
+        STATUS_LIMIT = int(getConfig('STATUS_LIMIT'))
 except KeyError:
-    STATUS_LIMIT = 5
+    STATUS_LIMIT = None
 try:
     MEGA_API_KEY = getConfig('MEGA_API_KEY')
     if len(MEGA_API_KEY) == 0:
@@ -332,7 +331,12 @@ try:
     STOP_DUPLICATE = getConfig('STOP_DUPLICATE')
     STOP_DUPLICATE = STOP_DUPLICATE.lower() == 'true'
 except KeyError:
-    STOP_DUPLICATE = True
+    STOP_DUPLICATE = False
+try:
+    IGNORE_PENDING_REQUESTS = getConfig("IGNORE_PENDING_REQUESTS")
+    IGNORE_PENDING_REQUESTS = IGNORE_PENDING_REQUESTS.lower() == 'true'
+except KeyError:
+    IGNORE_PENDING_REQUESTS = False
 try:
     VIEW_LINK = getConfig('VIEW_LINK')
     VIEW_LINK = VIEW_LINK.lower() == 'true'
