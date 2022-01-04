@@ -110,7 +110,7 @@ def get_progress_bar_string(status):
     cFull = p // 8
     p_str = '✅' * cFull
     p_str += '☑' * (10 - cFull)
-    p_str = f"[ {p_str} ] ✳️ P="
+    p_str = f"[ {p_str} ]✳️ P:"
     return p_str
 
 def get_readable_message():
