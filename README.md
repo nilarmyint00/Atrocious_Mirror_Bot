@@ -1,7 +1,11 @@
 ✳ Atrocious_Mirror_Bot.
 
 ✳ First for this repo .
-Before deploying you must need to collect all config.
+Before deploying you must need to collect all required config and token.pickle and credentials.json. 
+
+✳ First fork this repo . Then upload token.pickle and credentials.json in bot root folder . Then go to herokou and add all config on config vars option . Then go to your apps deploy option and select your forked repo and connect and click deploy branch and wait for deploying . 
+If bot not working then check herkou log .
+
 
 ✳ Required Config :
 
@@ -50,10 +54,8 @@ BLOCK_MEGA_LINKS = If you want to remove mega.nz mirror support, set it to True.
 
 IS_TEAM_DRIVE = Set to False or leave it empty to get public google drive links else True so only who have access to your Folder/TeamDrive can open the links. 
 
-
-✳  After deploy upload token.pickle and credentials.json in bots root folder . Then go to your herkou app deploy option and select your forked repo and connect then enable automatic deploys then click deploy branch and wait for deploying . Otherwise google drive link clone and upload in Google drive will not work.
-
 For queries or any issues regarding the bot please open an issue ticket or visit us at [AtrociousBotSupport](https://t.me/AtrociousBotSupport)
 
+✳ Others Optional config : 
 
 Credits : This is a Telegram Bot written in Python for mirroring files on the Internet to your Google Drive or Telegram. Based on python-aria-mirror-bot.
