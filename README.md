@@ -1,7 +1,7 @@
 ✳ Atrocious_Mirror_Bot.
 
-✳ First for this repo .
-Before deploying you must need to collect all required config and token.pickle and credentials.json. 
+✳ Before deploying you must need to collect all required config and token.pickle and credentials.json. 
+✳ GitHub workflow not required .
 
 ✳ First fork this repo . Then upload token.pickle and credentials.json in bot root folder . Then go to herokou and add all config on config vars option . Then go to your apps deploy option and select your forked repo and connect and click deploy branch and wait for deploying . 
 If bot not working then check herkou log .
