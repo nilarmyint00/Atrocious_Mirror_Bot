@@ -64,4 +64,4 @@ Main Repo : https://github.com/lzzy12/python-aria-mirror-bot
 
 Some features updated from  mirror leech telegram bot.
 
- https://github.com/anasty17
+https://github.com/anasty17/mirror-leech-telegram-bot
