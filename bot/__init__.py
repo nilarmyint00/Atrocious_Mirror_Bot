@@ -309,7 +309,7 @@ try:
     if len(BUTTON_FOUR_NAME) == 0 or len(BUTTON_FOUR_URL) == 0:
         raise KeyError
 except KeyError:
-    BUTTON_FOUR_NAME = "Group"
+    BUTTON_FOUR_NAME = "👨‍👩‍👦‍👦 Group"
     BUTTON_FOUR_URL = "https://t.me/+WKZqyWNHpLViMmI1"
 try:
     BUTTON_FIVE_NAME = getConfig('BUTTON_FIVE_NAME')
@@ -317,8 +317,8 @@ try:
     if len(BUTTON_FIVE_NAME) == 0 or len(BUTTON_FIVE_URL) == 0:
         raise KeyError
 except KeyError:
-    BUTTON_FIVE_NAME = "Repo"
-    BUTTON_FIVE_URL = "https://github.com/Atrocious-Mirror-Bot/Nobita-MirrorBot"
+    BUTTON_FIVE_NAME = "🏠 Repo"
+    BUTTON_FIVE_URL = "https://github.com/AL-Noman21/Atrocious_Mirror_Bot"
 try:
     BUTTON_SIX_NAME = getConfig('BUTTON_SIX_NAME')
     BUTTON_SIX_URL = getConfig('BUTTON_SIX_URL')
