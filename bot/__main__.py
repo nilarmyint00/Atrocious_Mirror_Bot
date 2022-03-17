@@ -22,7 +22,7 @@ from bot.helper.telegram_helper import button_build
 from .modules import authorize, list, cancel_mirror, mirror_status, mirror, clone, watch, shell, eval, delete, speedtest, count, leech_settings, search
 
 
-Bot_Photo = "https://telegra.ph/file/c06d92681208824918821.jpg"
+Bot_Photo = "https://telegra.ph/file/e183c440fa21cc3866d1f.png"
 
 def start(update, context):
     args = context.args
@@ -79,18 +79,18 @@ def start(update, context):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="☯️ Cloud Group",
-                                url="https://t.me/+WKZqyWNHpLViMmI1",
+                                text="☯️ HTD Mirror Group",
+                                url="https://t.me/htdmirrorleechgp",
                             ),
                             InlineKeyboardButton(
-                                text="✳ Find More",
-                                url="https://github.com/AL-Noman21",
+                                text="✳ Tutorial",
+                                url="https://youtu.be/fuR3k1EkwI4",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🕎 Atrocious Bot Owner",
-                                url="https://t.me/smexynos7870",
+                                text="🕎 Bot Owner",
+                                url="https://t.me/howtodoyt",
                             ),
                         ],
                     ],
@@ -111,12 +111,12 @@ For commands and help press /help .
 """
 
 GROUP_START_TEXT = """
-Hello, I'm Atrocious Mirror Bot.
+Hello, I'm HTD Mirror Bot.
 I can mirror all your links to Google drive. But in pm or unauthorized group you can use all telegram upload tools. If you want to upload in Google Drive you need to join Atrocious Cloud Drive.
 For help and commands press /help .
 """
 
-buttons = [[InlineKeyboardButton(text="☸ Cloud Drive Group", url="https://t.me/+WKZqyWNHpLViMmI1"),],
+buttons = [[InlineKeyboardButton(text="☸ HTD Mirror Group", url="https://t.me/htdmirrorleechgp"),],
 
           [InlineKeyboardButton(text="✅ Add me in your group", url="t.me/Atrocious_Mirror_Bot?startgroup=true",)],]
 
@@ -257,7 +257,7 @@ help_string_telegraph = f'''<br>
 '''
 
 help = telegraph.create_page(
-        title='Atrocious Mirror Bot Help',
+        title='HTD Mirror Bot Help',
         content=help_string_telegraph,
     )["path"]
 
@@ -338,7 +338,7 @@ def main():
         os.remove(".restartmsg")
     elif OWNER_ID:
         try:
-            text = "<b>Atrocious Mirror Bot Restarted!</b>"
+            text = "<b>HTD Mirror Bot Restarted!</b>"
             bot.sendMessage(chat_id=OWNER_ID, text=text, parse_mode=ParseMode.HTML)
         except Exception as e:
             LOGGER.warning(e)
@@ -359,7 +359,7 @@ def main():
     dispatcher.add_handler(stats_handler)
     dispatcher.add_handler(log_handler)
     updater.start_polling(drop_pending_updates=IGNORE_PENDING_REQUESTS)
-    LOGGER.info(" Atrocious Mirror Bot Started!")
+    LOGGER.info("HTD Mirror Bot Started!")
     signal.signal(signal.SIGINT, fs_utils.exit_clean_up)
 
 app.start()
